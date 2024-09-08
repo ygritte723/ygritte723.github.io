@@ -1,6 +1,7 @@
 ---
 title: "Lightweight Relational Embedding in Task-Interpolated Few-Shot Networks for Enhanced Gastrointestinal Disease Classification"
 collection: publications
+excerpt: 'Oral. Honorable Mention Award.'
 permalink: /publication/2024-01-01-Lightweight-Relational-Embedding-in-Task-Interpolated-Few-Shot-Networks-for-Enhanced-Gastrointestinal-Disease-Classification
 date: 2024-01-01
 venue: 'In the proceedings of 2024 IEEE Conference on Artificial Intelligence (CAI)'
