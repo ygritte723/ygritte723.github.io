@@ -1,6 +1,7 @@
 ---
 title: "Machine and Deep Learning Based Clinical Decision Making for Coronary Artery Disease and Chatbot Tool"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Machine-and-Deep-Learning-Based-Clinical-Decision-Making-for-Coronary-Artery-Disease-and-Chatbot-Tool
 date: 2024-01-01
 venue: 'In the proceedings of 2024 IEEE Conference on Artificial Intelligence (CAI)'

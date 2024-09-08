@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Biomedical Multi-modal Representation Learning with Multi-scale Pre-training and Perturbed Report Discrimination"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Enhancing-Biomedical-Multi-modal-Representation-Learning-with-Multi-scale-Pre-training-and-Perturbed-Report-Discrimination
 date: 2024-01-01
 excerpt: 'Spotlight presentation.'

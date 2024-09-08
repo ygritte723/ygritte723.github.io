@@ -1,6 +1,7 @@
 ---
 title: "Artificial Intelligence for Modeling Complex Treatment Decisions in Aortic Valve Intervention"
 collection: publications
+category: manuscripts
 excerpt: 'This paper is good.'
 permalink: /publication/2024-01-01-Artificial-Intelligence-for-Modeling-Complex-Treatment-Decisions-in-Aortic-Valve-Intervention
 date: 2024-01-01
