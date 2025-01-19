@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "id.jpg"
   name             : "Xinliu Zhong"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Dream as if you'll live forever. Live as if you'll die today."
   location         : "Atlanta, Georgia"
   employer         : "Emory University"
@@ -37,7 +37,7 @@ author:
   orcid            : "https://orcid.org/0009-0005-6574-3280"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Xinliu-Zhong"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -55,9 +55,9 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "thisisygritte"
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "Xinliu Zhong"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
