@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Xinliu Zhong's Homepage"
 title_separator          : "-"
 name                     : &name "Xinliu Zhong"
-description              : &description "personal description"
+description              : &description "Xinliu (Tracy) Zhong, Ph.D. candidate at Emory University. Multimodal learning, diffusion models, and computer-use agents."
 url                      : https://ygritte723.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ygritte723/ygritte723.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "id.jpg"
   name             : "Xinliu Zhong"
   pronouns         : "she/her"  
-  bio              : "Dream as if you'll live forever. Live as if you'll die today."
+  bio              : "Ph.D. candidate · Multimodal learning & generative AI"
   location         : "Atlanta, Georgia"
   employer         : "Emory University"
   uri              : # URL
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : "thisisygritte"
   lastfm           : # Username
-  linkedin         : "Xinliu Zhong"
+  linkedin         : "xinliu-zhong"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -86,7 +86,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -156,6 +156,19 @@ include:
   - _pages
   - files
 exclude:
+  - _pages/talkmap.html
+  - _pages/category-archive.html
+  - _pages/tag-archive.html
+  - _pages/collection-archive.html
+  - _pages/page-archive.html
+  - _pages/markdown.md
+  - _pages/archive-layout-with-content.md
+  - _pages/non-menu-page.md
+  - _pages/terms.md
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
