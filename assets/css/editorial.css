@@ -32,3 +32,23 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::select
 
 .university-mark.full-color{background:#fff;border:1px solid #ddd;padding:12px}.university-mark.full-color img{max-height:82px;width:auto;max-width:100%}
 @media(max-width:760px){.university-mark.full-color img{max-height:60px}}
+
+.publication-update{padding:25px 0;border-bottom:1px solid var(--line)}.publication-update p{font-size:19px;line-height:1.35;margin:10px 0}.publication-update .meta{font-size:11px}
+
+/* Desktop reading scale: retain the editorial hierarchy without tiny copy. */
+@media screen and (min-width:761px){
+  body{font-size:18px;line-height:1.65}
+  nav a,.link-row>a,.section-heading>a,.project-card>a,.availability>a{font-size:16px}
+  .brand span{font-size:12px}
+  .issue-line,.eyebrow,.desk-label,.feature-copy .eyebrow,.badge,.award{font-size:14px}
+  .portrait figcaption,.desk-caption,.desk-paper span,.desk-paper small{font-size:14px;line-height:1.5}
+  .intro-statement>p:not(.lead):not(.eyebrow),.feature-copy p,.project-card p,.about-strip p,.publication p,.result-note p,.steps span{font-size:18px;line-height:1.65}
+  .intro-statement .link-row{gap:12px 20px}
+  .availability strong{font-size:18px}
+  .availability span:not(.status-dot),.feature-copy .credit,.university>span,.meta,.muted,.publication-update .meta,.site-footer p,.site-footer a,.footer-note,.paper-figure figcaption{font-size:15px;line-height:1.6}
+  .publication details,.citation{font-size:16px}
+  .desk-stack{height:275px;margin-left:12px;margin-right:12px}
+  .desk-paper{padding:16px}
+  .desk-paper img{height:140px;min-height:0}
+  .intro-spread{gap:36px}
+}
