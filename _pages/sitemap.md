@@ -9,3 +9,4 @@ permalink: /sitemap/
 - [Projects](/projects/)
 - [CV](/cv/)
 - [Teaching](/teaching/)
+- [Notes](/notes/)

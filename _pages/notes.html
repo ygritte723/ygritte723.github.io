@@ -1,0 +1,16 @@
+---
+layout: research
+title: "Notes"
+permalink: /notes/
+description: "Occasional thoughts on research, building things, and everything in between."
+redirect_from:
+  - /blog/
+---
+<p class="intro">Research ideas, things I’m learning, and thoughts along the way.</p>
+{% if site.posts.size > 0 %}
+<div class="notes-list">
+{% for post in site.posts %}<article class="note-preview"><time class="eyebrow" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time><h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2><p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 40 }}</p><a href="{{ post.url | relative_url }}">Read note →</a></article>{% endfor %}
+</div>
+{% else %}
+<div class="notes-empty"><span class="eyebrow">An open notebook</span><h2>A little room to think out loud.</h2><p>Occasional observations on research, building things, and everything in between. First notes coming soon.</p></div>
+{% endif %}

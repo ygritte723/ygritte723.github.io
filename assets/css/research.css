@@ -152,3 +152,15 @@ h2,h3{break-after:avoid}
 .award{background:#f5ead5;color:#775021;font-weight:650;margin-bottom:14px}
 .feature-copy .award+h3{font-size:23px;line-height:1.3}
 
+
+.notes-empty{margin:36px 0 50px;padding:38px;border:1px solid var(--line);border-radius:var(--radius);background:#f0f3ed;max-width:740px}
+.notes-empty h2{margin:14px 0 20px;font-size:34px}
+.notes-empty p{max-width:580px;margin-bottom:0}
+.note-preview{max-width:740px;padding:28px 0;border-top:1px solid var(--line)}
+.note-preview h2{margin:10px 0 16px;font-size:30px}
+.note-preview h2 a{color:var(--ink);text-decoration:none}
+.note-body{max-width:720px;font-size:18px;line-height:1.85;overflow-wrap:anywhere}
+.note-body blockquote{border-left:3px solid var(--accent);margin:30px 0;padding:0 24px;color:var(--muted)}
+.note-body pre{overflow-x:auto;padding:20px;background:var(--soft);font-size:14px;border-radius:8px}
+.back-to-notes{margin-top:50px;padding-top:25px;border-top:1px solid var(--line);font-size:14px}
+@media(max-width:760px){nav{width:100%;justify-content:space-between;gap:16px}.notes-empty{padding:25px}.notes-empty h2{font-size:28px}.note-body{font-size:17px}}

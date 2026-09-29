@@ -1,0 +1,8 @@
+---
+layout: research
+---
+<article class="note-body">
+<p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>{% if page.tags.size > 0 %} · {{ page.tags | join: ' / ' | escape }}{% endif %}</p>
+{{ content }}
+<p class="back-to-notes"><a href="{{ '/notes/' | relative_url }}">← All notes</a></p>
+</article>

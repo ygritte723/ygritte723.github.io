@@ -243,7 +243,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: note
+      permalink: /notes/:title/
       author_profile: true
       read_time: true
       comments: true
