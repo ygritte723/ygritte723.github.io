@@ -11,15 +11,17 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
 <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/editorial.css' | relative_url }}">
+<script src="{{ '/assets/js/editorial.js' | relative_url }}" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="{{ '/' | relative_url }}">Xinliu Zhong<span>Research & engineering</span></a>
+<header class="site-header"><div class="header-inner"><a class="brand" href="{{ '/' | relative_url }}">Xinliu Zhong<span>Research / Selected work</span></a>
 <nav aria-label="Main navigation">{% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}" {% if page.url == item.url or page.layout == "note" and item.url == "/notes/" %}aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}</nav></div></header>
 <main id="main" class="container {% if page.home %}home{% else %}interior{% endif %}">
 {% unless page.home %}<div class="page-heading"><p class="eyebrow">Xinliu (Tracy) Zhong</p><h1>{{ page.title }}</h1></div>{% endunless %}
 {{ content }}
 {% if page.collection == 'publications' %}<p class="paper-meta">{{ page.venue }} · {{ page.date | date: '%Y' }}</p>{% if page.paperurl %}<p><a class="button primary" href="{{ page.paperurl }}">Read paper ↗</a></p>{% endif %}{% if page.citation %}<h2>Citation</h2><p class="citation">{{ page.citation }}</p>{% endif %}{% endif %}
 </main>
-<footer class="site-footer"><div><strong>Let’s connect.</strong><p>Research, collaboration, and Summer 2027 opportunities.</p><a href="mailto:xinliu.zhong@emory.edu">xinliu.zhong@emory.edu ↗</a></div><div class="footer-note">© {{ site.time | date: '%Y' }} Xinliu Zhong<br>Atlanta, GA · Emory University<br><a href="https://www.linkedin.com/in/xinliu-zhong/">LinkedIn</a> · <a href="https://github.com/ygritte723">GitHub</a> · <a href="https://scholar.google.com/citations?user=gCNP1EsAAAAJ">Scholar</a></div></footer>
+<footer class="site-footer"><div><strong>Say hello.</strong><p>Research, collaboration, and Summer 2027 opportunities.</p><a href="mailto:xinliu.zhong@emory.edu">xinliu.zhong@emory.edu ↗</a></div><div class="footer-note">© {{ site.time | date: '%Y' }} Xinliu Zhong<br>Atlanta, GA · Emory University<br><a href="https://www.linkedin.com/in/xinliu-zhong/">LinkedIn</a> · <a href="https://github.com/ygritte723">GitHub</a> · <a href="https://scholar.google.com/citations?user=gCNP1EsAAAAJ">Scholar</a></div></footer>
 </body></html>
